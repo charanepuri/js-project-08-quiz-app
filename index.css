@@ -1,0 +1,90 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.quiz-box {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.option {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    /* Increased font size for answers */
+    font-size: 18px;
+}
+
+.option:hover {
+    background: #ccc;
+}
+
+.correct {
+    background: green !important;
+    color: white;
+}
+
+.wrong {
+    background: red !important;
+    color: white;
+}
+
+#nextBtn {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#score {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#prevBtn, #nextBtn {
+    padding: 10px;
+    width: 45%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#prevBtn {
+    background: #6c757d;
+    color: white;
+}
+
+#nextBtn {
+    background: #007bff;
+    color: white;
+}
+
+#progress {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
